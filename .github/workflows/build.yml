@@ -1,10 +1,10 @@
 name: Release DevOps with Docker # Name of the workflow
 
-# On a push to the branch named master
+# On a push to the branch named main
 on:
   push:
     branches:
-      - master
+      - main
 
 # Job called build runs-on ubuntu-latest
 jobs:
