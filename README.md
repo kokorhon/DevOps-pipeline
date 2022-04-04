@@ -12,3 +12,5 @@ docker-compose up
 I decided to only push the frontend to Heroku.
 
 Pipeline implemented in ./github/workflows/build.yml
+
+API ke has been regenerated so it can not be used anymore.
