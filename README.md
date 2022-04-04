@@ -7,3 +7,8 @@ Content copied from courses material: https://github.com/docker-hy/material-appl
 
 docker build -t reverseproxy ./nginx
 docker-compose up
+
+## About Pipeline to Heroku
+I decided to only push the frontend to Heroku.
+
+Pipeline implemented in ./github/workflows/build.yml
