@@ -6,6 +6,10 @@ on:
     branches:
       - main
 
+env:
+  HEROKU_API_KEY: ${{ '2464bb14-b587-49b3-9332-609dd8ec3aea' }}
+  APP_NAME: ${{ 'course-docker' }}
+      
 # Job called build runs-on ubuntu-latest
 jobs:
   build:
@@ -16,7 +20,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Build, Push and Release a Docker container to Heroku.
-        uses: gonuit/heroku-docker-deploy@v1.3.3
+      uses: gonuit/heroku-docker-deploy@v1.3.3
         with:
           # Below you must provide variables for your Heroku app.
 
