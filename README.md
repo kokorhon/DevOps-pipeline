@@ -6,6 +6,7 @@ Content copied from courses material: https://github.com/docker-hy/material-appl
 ## Run
 
 docker build -t reverseproxy ./nginx
+
 docker-compose up
 
 ## About Pipeline to Heroku
